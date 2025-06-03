@@ -1,0 +1,46 @@
+.onepiece-container {
+  font-family: 'Treasure Map Deadhand', cursive, sans-serif;
+  background: linear-gradient(to bottom, #fdd835, #f57f17);
+  padding: 2rem;
+  border: 5px dashed #000;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color: #000;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #d32f2f;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #37474f;
+}
+
+.character-list {
+  list-style: none;
+  padding: 0;
+}
+
+.character-card {
+  background-color: #fff3e0;
+  border: 2px solid #ff9800;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  background-color: #ffe0b2;
+}
